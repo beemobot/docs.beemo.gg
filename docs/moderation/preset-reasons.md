@@ -10,6 +10,8 @@ nav_order: 3
 Save moderators time by storing preset reasons for them to use on bad actors.   
 {: .fs-6 .fw-300 }
 
+---
+
 ## About
 Preset reasons allow for moderators to save time when issuing punishments in a server by using preset flags for rules that are repeatedly violated. 
 

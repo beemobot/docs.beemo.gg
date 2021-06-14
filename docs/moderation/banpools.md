@@ -10,6 +10,8 @@ nav_order: 2
 Banpools allow for Beemo Max servers to group together and ban users across multiple servers with one command.  
 {: .fs-6 .fw-300 }
 
+---
+
 ## How do they work?
 
 When servers join a banpool, they will recieve all bans from other servers in that banpool. All users by default are apart of the  `antispam` banpool.
