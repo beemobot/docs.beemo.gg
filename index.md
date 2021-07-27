@@ -11,31 +11,27 @@ permalink: /
 
 Beemo is a free antispam Discord Bot that can stop userbot raids against your server.
 
-[Beemo.gg](https://beemo.gg){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Discord](https://beemo.gg/discord){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
 {: .fs-6 .fw-300 }
+
+## Important Documentation Notes
+
+The documentation for Beemo Max is not yet complete, but there are some pages available to give a general idea. Since Beemo is designed to be configured in-Discord, all of the commands are generally well documented via their respective help menus. If you would like more information on Beemo Max beyond what is present in the docs, [join the Discord](https://beemo.gg/Discord)!
 
 ## Adding Beemo & Setting Up 
 
 Adding Beemo to your server is super simple and takes seconds. 
 
-1. Go to Beemo's OAuth page [here](https://beemo.gg/invite) and go through the steps to invite Beemo. The minimum permissions are
-```Ban members, Send messages, Embed Links, Reactions```
-2. Move Beemo's integration role above the members in your server, making sure it's highest role is above the highest member role. 
+1. [Invite Beemo to your server](https://beemo.gg/invite)! The minimum permission necessary is `Ban Members`, but do note that all of the permissions being requested are there for the purposes of logging and antispam improvements.
 
-3. (Optional) Set up an ActionLog with `/banpool actionlog #channel`
+2. Move Beemo's highest role above regular server members so that it can ban regular members.
 
-And you should be done! Beemo should be operating in your discord server and automatically checking and banning any spam activity. There are little other steps that you need to take from this point.
+3. (Optional) Set up an action log for antispam with `/banpool actionlog #channel`
 
+And you should be done! Beemo should be operating in your Discord server and automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in a future update you will be able to disable/enable the antispam via a command.
 
-## About the Documentation
+### How To Contribute
 
-### License
-See more about the documentation licensing [here](https://github.com/AyuAi/beemo-docs/blob/main/LICENSE).
-
-### Contributing
-
-See more about how to contribute to the documentation [here](https://github.com/AyuAi/beemo-docs/blob/main/CONTRIBUTING.md).
+Contributing to the documentation is relatively simple! At the bottom of every documentation page is an "Edit on GitHub" button; Simply press this and make your changes on the page it opens and submit a pull request when you're done. The pull request will be reviewed, and if your change is good, it will be merged into docs.beemo.gg!
 
 ### Documentation Contributors
 

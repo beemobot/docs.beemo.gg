@@ -6,13 +6,15 @@ nav_order: 1
 ---
 
 # XP
-Beemo's XP system allows for members to gain experience as they participate in the server.
+Beemo's XP system allows for members to gain experience as they participate in the server via text & voice channels.
 
 ---
 
 ## About
 
-Users are able to gain XP through both text and voice channels, with customisable curves and rewards for levels. Servers can then add roles to be rewarded at different level milestones and benefit from an intregrated XP leaderboard. 
+Users are able to gain XP through both text and voice channels, with customisable curves and role rewards for levels. Servers can add roles to be rewarded at different level milestones and benefit from an intregrated XP leaderboard.
+
+If enabled alongside XP, users will also gain Honey at the same rate, which is consumable in a Honey role shop. See https://docs.beemo.gg/utility/honey for more information on the Honey shop.
 
 ## Commands
 

@@ -1,16 +1,9 @@
-<!-- Logo -->
 <p align="center">
-  <a href="https://docs.beemo.gg">
-    <img src='assets/img/placeholder_header.png' alt='Logo'>
-  </a>
-
-<!-- Project Title and Links-->
-<h3 align="center">Beemo Documentation</h3>
+  <!-- Project Title and Links-->
+  <h3 align="center">Beemo Documentation</h3>
   <p align="center">
     <a href="https://docs.beemo.gg"><strong>View Docs »</strong></a>
     <br /><br />
-    <a href="#contributing">Contributing</a>
-    ·
     <a href="https://beemo.gg/discord">Discord</a>
     ·
     <a href="https://beemo.gg">Website</a>
@@ -32,10 +25,6 @@
 --- 
 
 ## Welcome
-To the beemo documentation, here you should be able to find everything you need to get working with Beemo as quickly as possible. 
+You should be able to find everything you need to get working with Beemo as quickly as possible! Feel free to open an issue or PR for missing / outdated content.
 
-## Contributing
-See more about contributing [here](CONTRIBUTING.md)
-
-## License
-The documentation is licensed under GPL-3.0, more information can be found [here](LICENSE).
+Note that the docs are maintained publicly for the sake of efficiency.
