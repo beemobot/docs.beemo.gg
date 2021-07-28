@@ -9,7 +9,7 @@ permalink: /
 # What is Beemo?
 {: .fs-9 }
 
-Well, Beemo is an antispam Discord Bot built to stop userbot raids.
+Beemo is a free antispam Discord Bot that can stop userbot raids against your server.
 
 {: .fs-6 .fw-300 }
 
