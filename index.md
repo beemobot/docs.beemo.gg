@@ -31,7 +31,7 @@ And you should be done! Beemo is now automatically checking and banning any user
 
 ### How To Contribute
 
-Contributing to the documentation is relatively simple! At the bottom of every documentation page is an "`Edit on GitHub`" button; Simply press this and make your changes on the page it opens- and submit a pull request when you're done. The pull request will be reviewed, and if your changes are good, it will be merged!
+Contributing to the documentation is relatively simple! At the bottom of every documentation page is an "`Edit on GitHub`" button; Simply press this and make your changes on the page it opens- and submit a pull request when you're done. The pull request will be reviewed, and if your changes are good, they will be added to the docs!
 
 ### Documentation Contributors
 
