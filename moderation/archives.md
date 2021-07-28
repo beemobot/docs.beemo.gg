@@ -16,7 +16,7 @@ Archives allow for moderators to quickly browse a users message history, includi
 There are currently a few ways that archives are generated with Beemo:
 
 ### Manually Generated
-To manually generate an archive for a user, you must be a moderator; Runing `/archive [user]` will grant you access to an archive that contains the past 3 days of said user's message history. Manually generated archives expire in 12 hours after the command execution.
+To manually generate an archive for a user, you must be a moderator; Running `/archive [user]` will grant you access to an archive that contains the past 3 days of said user's message history. Manually generated archives expire 12 hours after the command execution.
 
 Notably, archives cannot be manually generated for moderators or administrators. This is to prevent any messages from being exposed from any mod or admin private channels.
 

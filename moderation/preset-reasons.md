@@ -7,13 +7,13 @@ nav_order: 3
 
 # Preset Reasons
 
-Save your moderators' time by storing preset reasons for them to use when making redundant moderation actions. 
+Save your moderators' time by storing preset reasons to use when making redundant moderation actions. 
 {: .fs-6 .fw-300 }
 
 ---
 
 ## About
-Preset reasons allow for moderators to save time when issuing punishments in a server by using preset flags for rules that are repeatedly violated. 
+Preset reasons allow for moderators to save time when issuing punishments by using preset flags for reasons that are repeatedly used (Like canned responses for moderators!)
 
 ## Configuration
 Configuring preset reasons for your server is simple. Please keep in mind that you must have the Administrator permission or be a Moderation Manager to configure preset reasons. 
@@ -30,5 +30,4 @@ To list all of the available preset reasons, use the `/presetreasons` command, t
 ### Using Presets
 
 To use a preset reason in a moderation command, simply put `-reasonhere` as your reason at the end of the moderation command, and Beemo will automatically action the user with that reason. You can also use the `/edit (case id) -presetreasonhere` to apply a preset reason to an existing case.
-
 
