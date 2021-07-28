@@ -19,7 +19,7 @@ The documentation for Beemo Max is limited, but there are some pages available. 
 
 ## Adding Beemo & Setting Up 
 
-Adding Beemo to your server is super simple. 
+Adding Beemo to your server is super simple!
 
 1. [Invite Beemo to your server](https://beemo.gg/invite)! Beemo will not function if it is denied the `Ban Members` permission, but do note that all of the permissions being requested are there for the purposes of logging and antispam improvements.
 
