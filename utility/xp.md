@@ -18,7 +18,7 @@ If enabled alongside XP, users will also gain Honey at the same rate, which is c
 
 ## Commands
 
-| Usage 	| Example 	| Usage 	|
+| Command 	| Example 	| Usage 	|
 |---	|---	|---	|
 | xp (enable/disable) 	| `/xp enable` 	| Enables or disables the XP system. 	|
 | xp rolereward (level) (role name/id) 	| `/xp rolereward 10 @Level 10` 	| Adds or removes the specified role as an XP role reward for the level specified. You do not need to specify the role if you are removing the role reward. 	|
