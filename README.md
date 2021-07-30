@@ -1,6 +1,9 @@
 <p align="center">
   <!-- Project Title and Links-->
   <h3 align="center">Beemo Documentation</h3>
+<p align="center">
+<img src="assets/banner.png">
+</p>
   <p align="center">
     <a href="https://docs.beemo.gg"><strong>View Docs »</strong></a>
     <br /><br />
