@@ -1,7 +1,7 @@
 <p align="center">
   <!-- Project Title and Links-->
 <p align="center">
-<img src="assets">
+<img src="/assets/banner.png">
 </p>
   <p align="center">
     <a href="https://docs.beemo.gg"><strong>View Docs »</strong></a>
