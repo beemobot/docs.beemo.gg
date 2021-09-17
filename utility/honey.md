@@ -13,7 +13,7 @@ Honey is a consumable credits system that allows for users to purchase roles.
 ---
 
 ## About Honey
-Honey allows for servers to reward activity with credits they can later trade in for role-rewards. These credits, namely "Honey," are earned at the same rate as XP; This means that users can spend their Honey without affecting their XP level. There are many applications that could be be done with this system - for example, servers could allow for active users to claim exclusive colour roles. 
+Honey allows for servers to reward activity with credits they can later trade in for role-rewards. These credits, namely "Honey," are earned at the same rate as XP; This means that users can spend their Honey without affecting their XP level. There are many applications that could be done with this system - for example, servers could allow for active users to claim exclusive colour roles. 
 
 ## Commands
 
