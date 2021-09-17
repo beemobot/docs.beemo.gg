@@ -13,14 +13,14 @@ Save your moderators' time by storing preset reasons to use when making redundan
 ---
 
 ## About
-Preset reasons allow for moderators to save time when issuing punishments by using preset flags for reasons that are repeatedly used (Like canned responses for moderators!)
+Preset reasons allow moderators to save time when issuing punishments by using preset flags for reasons that are repeatedly used (like canned responses for moderators!)
 
 ## Configuration
 Configuring preset reasons for your server is simple. Please keep in mind that you must have the Administrator permission or be a Moderation Manager to configure preset reasons. 
 
 ### Managing Presets
 
-To set a new preset reason, do `/mod presetreason [variablename] (reason)`, to remove a preset reason do `/mod presetreason [variablename]` without a reason.
+To set a new preset reason, do `/mod presetreason [variablename] (reason)`, to remove a preset reason, do `/mod presetreason [variablename]` without a reason.
 
 Once added, all moderators in your server will now be able to use the preset reason you have configured by simply typing `-reasonhere` as their reason.
 
