@@ -21,7 +21,7 @@ To manually generate an archive for a user, you must be a moderator; Running `/a
 Notably, archives cannot be manually generated for moderators or administrators. This is to prevent any messages from being exposed from any mod or admin private channels.
 
 ### Automatically Generated
-Whenever a moderation command is ran targetting a user, for example a ban, all of the users messages (including edits and deletions) will be archived and attached to the case. These archives are meant to serve as a snapshot of the past 3 days of message history of a user receiving an infraction, and will not expire for the purpose of moderation log persistence.
+Whenever a moderation command is ran targetting a user, for example a ban, all of the user's messages (including edits and deletions) will be archived and attached to the case. These archives are meant to serve as a snapshot of the past 3 days of message history of a user receiving an infraction, and will not expire for the purpose of moderation log persistence.
 
 When you check info on a case via `/case (case id)` or `/modlogs (user id)`, the case-specific archive links will be displayed.
 
