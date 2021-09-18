@@ -20,7 +20,7 @@ Configuring preset reasons for your server is simple. Please keep in mind that y
 
 ### Managing Presets
 
-To set a new preset reason, do `/mod presetreason [variablename] (reason)`, to remove a preset reason, do `/mod presetreason [variablename]` without a reason.
+To set a new preset reason, do `/mod presetreason [preset name] (reason)`, to remove a preset reason, do `/mod presetreason [preset name]` without a reason.
 
 Once added, all moderators in your server will now be able to use the preset reason you have configured by simply typing `-reasonhere` as their reason.
 
