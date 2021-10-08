@@ -31,5 +31,5 @@ When servers join a banpool, they will recieve all bans from other servers in th
 | banpool modroles [banpool id] 	| `/banpool modroles 12464625536373` 	| Lists all mod roles for the banpool specified. Users with these roles can contribute to the banpools they are mod for. 	|
 | banpool managerrole [role id or name] 	| `/banpool managerole Manager` 	| Enables a role to manage banpools for this server. This allows people to use /banpool configuration commands. 	|
 | banpool managerroles 	| - 	| Lists all banpool manager roles for this server. 	|
-| poolban [banpool id] [user id(s)] [reason] 	| `/banpool 12464625536373 192048286331437056 347727875266576395 raiding` 	| Bans a user or list of users from all servers in the banpool specified 	|
+| poolban [banpool id] [user id(s)] [reason] 	| `/poolban 12464625536373 192048286331437056 347727875266576395 raiding` 	| Bans a user or list of users from all servers in the banpool specified 	|
 | unpoolban [banpool id] [user id(s)] [reason] 	| `/unbanpool 12464625536373 192048286331437056 347727875266576395 false positives` 	| Unbans a user or list of users from all servers in the banpool specifi 	|
