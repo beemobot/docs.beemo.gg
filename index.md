@@ -15,6 +15,8 @@ Beemo is a free antispam Discord Bot that can stop userbot raids against your se
 
 ## Important Documentation Notes
 
+**For all commands,** Beemo does not currently use Discord's slash commands. This means that if another bot is using the slash command `/help`, you cannot actually type `/help` to use for Beemo. To fix this issue temporarily while slash command support is being developed for Beemo, simply add a space in front of any command that might be taken by another bot's slash commands. Example: ` /help`
+
 The documentation for Beemo Max is limited, but there are some pages available. Since Beemo is designed to be configured in-Discord, all of the commands are generally well documented via their respective help menus. If you would like more information on Beemo Max (beyond the docs), [join the Discord](https://beemo.gg/Discord)!
 
 ## Adding Beemo & Setting Up 
