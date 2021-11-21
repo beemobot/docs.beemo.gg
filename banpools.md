@@ -14,7 +14,7 @@ Banpools allow for Beemo Max servers to group together and ban users across mult
 
 ## How do Banpools work?
 
-When servers join a banpool, they will recieve all bans from other servers in that banpool. All users by default are apart of the  `antispam` banpool, which serves to protect all participants against userbot raids.
+When servers join a banpool, they will receive all bans from other servers in that banpool. All users by default are a part of the  `antispam` banpool, which serves to protect all participants against userbot raids.
 
 ## Commands
 
