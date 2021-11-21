@@ -15,7 +15,7 @@ Beemo is a free antispam Discord Bot that can stop userbot raids against your se
 
 ## Important Documentation Notes
 
-**For all commands,** Beemo does not currently use Discord's slash commands. This means that if another bot is using the slash command `/help`, you cannot actually type `/help` to use for Beemo. To fix this issue temporarily while slash command support is being developed for Beemo, simply add a space in front of any command that might be taken by another bot's slash commands. Example: ```(space)/help```
+**For all commands,** Beemo does not currently use Discord's slash commands. This means that if another bot is using the slash command `/help`, you cannot type `/help` to use for Beemo. To fix this issue temporarily while slash command support is being developed for Beemo, simply add a space in front of any command that might be taken by another bot's slash commands. Example: ```(space)/help```
 
 The documentation for Beemo Max is limited, but there are some pages available. Since Beemo is designed to be configured in-Discord, all of the commands are generally well documented via their respective help menus. If you would like more information on Beemo Max (beyond the docs), [join the Discord](https://beemo.gg/Discord)!
 
@@ -23,13 +23,13 @@ The documentation for Beemo Max is limited, but there are some pages available. 
 
 Adding Beemo to your server is super simple!
 
-1. [Invite Beemo to your server](https://beemo.gg/invite)! Beemo will not function if it is denied the `Ban Members` permission, but do note that all of the permissions being requested are there for the purposes of logging and antispam improvements.
+1. [Invite Beemo to your server](https://beemo.gg/invite)! Beemo will not function if it is denied the `Ban Members` permission, but do note that all of the permissions being requested are there for logging and antispam improvements.
 
 2. Move Beemo's highest role above regular server members so that it can ban regular members.
 
 3. <a id="actionlog"></a>(Optional) Set up an action log for antispam with `/banpool actionlog #channel`
 
-And you should be done! Beemo is now automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in the future you will be able to disable/enable the antispam via a command.
+And you should be done! Beemo is now automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in the future, you will be able to disable/enable the antispam via a command.
 
 **NOTE**: Beemo will only post logs to the [specified channel](#actionlog) when a raid is detected against your server. If you have followed the directions above, Beemo is already passively protecting your server with no other configuration required (or available).  Beemo is a quiet bot so remember that "no news is good news."
 
