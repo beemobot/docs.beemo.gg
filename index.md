@@ -27,13 +27,13 @@ Adding Beemo to your server is super simple!
 
 2. Move Beemo's highest role above regular server members so that it can ban regular members.
 
-3. <a id="actionlog"></a>(Optional) Set up an action log for antispam with `/antispam log #channel`
+3. (Optional) Set up an action log for antispam with `/antispam log #channel`
 
 And you should be done! Beemo is now automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in the future, you will be able to disable/enable the antispam via a command.
 
-**NOTE**: Beemo will only post logs to the [specified channel](#actionlog) when a raid is detected against your server. If you have followed the directions above, Beemo is already passively protecting your server with no other configuration required (or available).  Beemo is a quiet bot so remember that "no news is good news."
+**NOTE**: Beemo will only post logs to the specified channel when a raid is detected against your server. If you have followed the directions above, Beemo is already passively protecting your server with no other configuration required (or available).  Beemo is a quiet bot so remember that "no news is good news."
 
-<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, please submit a report to the #spam-reports channel on the [Beemo Discord server](https://beemo.gg/discord) to help improve the algorithm (and be sure to check the pins for the required format to do so!). Please keep in mind that Beemo's antispam is provided for free and that Ayu (the developer) doesn't have time to be on-call for all of the servers.
+<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, please submit a report to the [#spam-reports](https://discord.com/channels/697474023914733575/856561090623569951) channel on the [Beemo Discord server](https://beemo.gg/discord) to help improve the algorithm (and be sure to check the pins for the required format to do so!). Please keep in mind that Beemo's antispam is provided for free and that Ayu (the developer) doesn't have time to be on-call for all of the servers.
 
 
 ### How To Contribute
