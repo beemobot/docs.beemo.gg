@@ -27,7 +27,7 @@ Adding Beemo to your server is super simple!
 
 2. Move Beemo's highest role above regular server members so that it can ban regular members.
 
-3. <a id="actionlog"></a>(Optional) Set up an action log for antispam with `/antispam log #channel`
+3. (Optional) Set up an action log for antispam with `/antispam log #channel`
 
 And you should be done! Beemo is now automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in the future, you will be able to disable/enable the antispam via a command.
 
