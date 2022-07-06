@@ -3,6 +3,7 @@ remote_theme: just-the-docs/just-the-docs
 title: Beemo Docs
 email: hello@beemo.gg
 description: Beemo is a free antispam Discord Bot that can stop userbot raids against your server.
+url: https://docs.beemo.gg
 
 aux_links:
   beemo.gg:
