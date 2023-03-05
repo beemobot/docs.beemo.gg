@@ -15,8 +15,6 @@ Beemo is a free antispam Discord Bot that can stop userbot raids against your se
 
 ## Important Documentation Notes
 
-**For all commands,** Beemo does not currently use Discord's slash commands. This means that if another bot is using the slash command `/help`, you cannot type `/help` to use for Beemo. To fix this issue temporarily while slash command support is being developed for Beemo, simply add a space in front of any command that might be taken by another bot's slash commands. Example: ```(space)/help```
-
 The documentation for Beemo Max is limited, but there are some pages available. Since Beemo is designed to be configured in-Discord, all of the commands are generally well documented via their respective help menus. If you would like more information on Beemo Max (beyond the docs), [join the Discord](https://beemo.gg/Discord)!
 
 ## Adding Beemo & Setting Up 
@@ -27,13 +25,13 @@ Adding Beemo to your server is super simple!
 
 2. Move Beemo's highest role above regular server members so that it can ban regular members.
 
-3. (Optional) Set up an action log for antispam with `/antispam log #channel`
+3. (Optional) Set up an action log for antispam with `/antispam log set #channel`
 
 And you should be done! Beemo is now automatically checking and banning any userbot raids that it detects. The algorithm is not configurable because it is designed to work dynamically, but in the future, you will be able to disable/enable the antispam via a command.
 
 **NOTE**: Beemo will only post logs to the specified channel when a raid is detected against your server. If you have followed the directions above, Beemo is already passively protecting your server with no other configuration required (or available).  Beemo is a quiet bot so remember that "no news is good news."
 
-<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, please submit a report to the [#spam-reports](https://discord.com/channels/697474023914733575/856561090623569951) channel on the [Beemo Discord server](https://beemo.gg/discord) to help improve the algorithm (and be sure to check the pins for the required format to do so!). Please keep in mind that Beemo's antispam is provided for free and that Ayu (the developer) doesn't have time to be on-call for all of the servers.
+<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, you can submit a report with the `/report-raid` command or to the [#spam-reports](https://discord.com/channels/697474023914733575/856561090623569951) channel on the [Beemo Discord server](https://beemo.gg/discord) (be sure to check the pins for the required format to do so!) to help improve the algorithm. Please keep in mind that Beemo's antispam is provided for free and that the developers doesn't have time to be on-call for all of the servers.
 
 
 ### How To Contribute
