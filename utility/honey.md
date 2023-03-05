@@ -17,9 +17,12 @@ Honey allows for servers to reward activity with credits they can later trade in
 
 ## Commands
 
-| Command 	| Example 	| Usage 	|
-|---	|---	|---	|
-| honey [enable/disable] 	| `/honey disable` 	| Enables or disables the honey system. 	|
-| honey shop role [role mention/id] [cost in honey] (optional description) 	| `/honey shop role 12345678 23 Purchase this honeycomb!` 	| Sets or removes the specified role as a honey shop role for purchase via the /honey shop command. Important: Please note that the role must be either an ID or a mention. 	|
-| honey reset [user mention/role name/id] 	| `/honey reset @Ayu`  `/honey reset all`  `/honey reset @Admin` 	| Resets the specified user's honey on the server. Replace user with all to reset the server's Honey. Specify a role to reset all users with a role. 	|
-| honey set [user mention/id] [new amount] 	| `/honey set @Ayu 69` 	| Sets the specified user's honey to the new honey amount. 	|
+| Command                                                                 | Example                                                                    | Usage                                                                                                            |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| honey all [enable]                                                      | `/honey all enable:false`                                                  | Enables or disables the honey system.                                                                            |
+| honey shop put [role mention/id] [cost in honey] (optional description) | `/honey shop put role:@Sugar cost:23 description:Purchase this honeycomb!` | Puts the specified role as a honey shop role for purchase via the `/honey shop buy` command, replaces if exists. |
+| honey shop remove [role mention/id]                                     | `/honey shop remove role:@Sugar`                                           | Removes the specified role from the Honey shop.                                                                  |
+| honey reset user [user mention]                                         | `/honey reset user:@Beemo #4570`                                           | Resets the specified user's honey on the server.                                                                 |
+| honey reset role [role mention]                                         | `/honey reset role:@Sugar`                                                 | Resets all the user with the role's honey on the server.                                                         |
+| honey reset all                                                         | `/honey reset all`                                                         | Resets the entire server's honey.                                                                                |
+| honey set [user mention/id] [new amount]                                | `/honey set user:@Beemo#4570 amount:10`                                    | Sets the specified user's honey to the new honey amount.                                                         |
