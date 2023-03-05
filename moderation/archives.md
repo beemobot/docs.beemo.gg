@@ -23,6 +23,6 @@ Notably, archives cannot be manually generated for moderators or administrators.
 ### Automatically Generated
 Whenever a moderation command is ran targetting a user, for example, a ban, all of the user's messages (including edits and deletions) will be archived and attached to the case. These archives are meant to serve as a snapshot of the past 3 days of message history of a user receiving an infraction, and will not expire for the purpose of moderation log persistence.
 
-When you check info on a case via `/case (case id)` or `/modlogs (user id)`, the case-specific archive links will be displayed.
+When you check info on a case via `/case view (case id)` or `/modlogs (user id)`, the case-specific archive links will be displayed.
 
 Note: When a user types `/mylogs`, they will not see the archives for their cases.
