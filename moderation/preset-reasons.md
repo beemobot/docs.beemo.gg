@@ -20,14 +20,14 @@ Configuring preset reasons for your server is simple. Please keep in mind that y
 
 ### Managing Presets
 
-To set a new preset reason, do `/mod presetreason [preset name] (reason)`, to remove a preset reason, do `/mod presetreason [preset name]` without a reason.
+To set a new preset reason, do `/presets set [preset name] (reason)`, to remove a preset reason, do `/presets remove [preset name]` without a reason.
 
 Once added, all moderators in your server will now be able to use the preset reason you have configured by simply typing `-reasonhere` as their reason.
 
 ### Viewing/Listing Presets
-To list all of the available preset reasons, use the `/presetreasons` command, to see a specific reason, do `/presetreasons -reasonhere`.
+To list all of the available preset reasons, use the `/presets view` command, to see a specific reason, do `/presets view -reasonhere`.
 
 ### Using Presets
 
-To use a preset reason in a moderation command, simply put `-reasonhere` as your reason at the end of the moderation command, and Beemo will automatically action the user with that reason. You can also use the `/edit (case id) -presetreasonhere` to apply a preset reason to an existing case.
+To use a preset reason in a moderation command, simply put `-reasonhere` as your reason at the end of the moderation command, and Beemo will automatically action the user with that reason. You can also use the `/case change reason (case id) -presetreasonhere` to apply a preset reason to an existing case.
 
