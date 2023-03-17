@@ -33,7 +33,7 @@ And you should be done! Beemo is now automatically checking and banning any user
 
 **NOTE**: Beemo will only post logs to the specified channel when a raid is detected against your server. If you have followed the directions above, Beemo is already passively protecting your server with no other configuration required (or available).  Beemo is a quiet bot so remember that "no news is good news."
 
-<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, you can submit a report with the `/report-raid` command or to the [#spam-reports](https://discord.com/channels/697474023914733575/856561090623569951) channel on the [Beemo Discord server](https://beemo.gg/discord) (be sure to check the pins for the required format to do so!) to help improve the algorithm. Please keep in mind that Beemo's antispam is provided for free and that the developers doesn't have time to be on-call for all of the servers.
+<a id="undetected-raids"></a>If a raid occurs that Beemo does not detect, you can submit a report using the `/report-raid` command or to the [#spam-reports](https://discord.com/channels/697474023914733575/856561090623569951) channel on the [Beemo Discord server](https://beemo.gg/discord) (be sure to check the pins for the required format to do so!) to help improve the algorithm. Please keep in mind that Beemo's antispam is provided for free and that the developers don't have time to be on-call for all of the servers.
 
 
 ### How To Contribute
