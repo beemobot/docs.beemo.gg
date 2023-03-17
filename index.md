@@ -15,6 +15,8 @@ Beemo is a free antispam Discord Bot that can stop userbot raids against your se
 
 ## Important Documentation Notes
 
+**Moderation, XP, and Honey are features of [Beemo Max](https://beemo.gg/subscribe).** You may not be able to enable or use them unless you are a Beemo Max subscriber.
+
 **If you can't see the commands of XP, Honey or Mod**, then you most likely have the feature disabled. Beemo removes the commands from your server when it finds that the feature is not enabled on your server. To enable the feature, you can use the `/toggle` command.
 
 The documentation for Beemo Max is limited, but there are some pages available. Since Beemo is designed to be configured in-Discord, all of the commands are generally well documented via their respective help menus. If you would like more information on Beemo Max (beyond the docs), [join the Discord](https://beemo.gg/Discord)!
